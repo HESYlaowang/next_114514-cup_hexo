@@ -702,6 +702,12 @@ bbtime:
   appKey: # 你的appKey
   serverURLs: # https://你的api
 
+wordCount:
+  enable: true # 将这个值设置为 true 即可.
+  postWordCount: true
+  min2read: true
+  totalCount: true
+
 
 # 图表绘制插件
 # 建议更换更换hexo-renderer-markdown-it引擎。参考下面链接
