@@ -4,7 +4,7 @@
 
 # Site
 title: 下北沢杯
-subtitle: '下北沢杯'
+subtitle: '接下来，下北沢杯'
 description: '好啊，来啊'
 keywords:
 author: HESY老王
@@ -127,7 +127,7 @@ theme: matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/HESYlaowang/next_114514-cup.git
+  repo: https://github.com/HESYlaowang/next_114514-cup_hexo.git
   branch: master
 
 githubEmojis:
