@@ -4,9 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="第一届下北沢杯, 下北沢杯">
-    <meta name="description" content="做完后把代码发到2705542113@qq.com仅限C++！题目背景本题中合法括号串的定义如下：1.	() 是合法括号串。2.	如果 A 是合法括号串，则 (A) 是合法括号串。3.	如果 A，B 是合法括号串，则 AB 是合法括号串。
-">
+    <meta name="keywords" content="一多造球, 下北沢杯">
+    <meta name="description" content="昔有一人，名一多，善造球。一日，与友同行，念无与为乐，遂曰：“吾与汝毕力造球，指通教室，达于茅厕，可乎？”杂然相许。其友献疑曰：“以君之力，曾不能造球之一层，如纸球何？且焉置废纸？”杂曰：“投诸教室之柜，茅厕之坑。”顷刻而球成。一多之后六年">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -29,7 +28,7 @@
     </style>
 
 
-    <title>第一届下北沢杯 | 下北沢杯</title>
+    <title>一多造球 | 下北沢杯</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -322,12 +321,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">第一届下北沢杯</h1>
+                    <h1 class="description center-align post-title">一多造球</h1>
                 </div>
             </div>
         </div>
@@ -455,7 +454,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-06-15
+                    2022-06-17
                 </div>
                 
 
@@ -464,7 +463,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    791
+                    165
                 </div>
                 
 
@@ -486,33 +485,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="做完后把代码发到-x32-55-48-x35-x35-52-50-49-49-x33-x40-x71-x71-46-x63-x6f-109"><a href="#做完后把代码发到-x32-55-48-x35-x35-52-50-49-49-x33-x40-x71-x71-46-x63-x6f-109" class="headerlink" title="做完后把代码发到2705542113@qq.com"></a>做完后把代码发到<a href="mailto:2705542113@qq.com">2705542113@qq.com</a></h1><h1 id="仅限C-！"><a href="#仅限C-！" class="headerlink" title="仅限C++！"></a>仅限C++！</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>本题中<strong>合法括号串</strong>的定义如下：<br>1.	<code>()</code> 是合法括号串。<br>2.	如果 <code>A</code> 是合法括号串，则 <code>(A)</code> 是合法括号串。<br>3.	如果 <code>A</code>，<code>B</code> 是合法括号串，则 <code>AB</code> 是合法括号串。</p>
-<p>本题中<strong>子串</strong>与<strong>不同的子串</strong>的定义如下：<br>1.	字符串 <code>S</code> 的子串是 <code>S</code> 中<strong>连续</strong>的任意个字符组成的字符串。<code>S</code> 的子串可用起始位置 l 与终止位置 r 来表示，记为 S (l, r)（1 ≤ l ≤ r ≤ |S |，|S | 表示 S 的长度）。<br>2.	<code>S</code> 的两个子串视作不同<strong>当且仅当</strong>它们在 <code>S</code> 中的位置不同，即 l 不同或 r 不同。</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>一个大小为 n 的树包含 n 个结点和 n − 1 条边，每条边连接两个结点，且任意两个结点间<strong>有且仅有</strong>一条简单路径互相可达。</p>
-<p>jo昊 是一个充满好奇心的小朋友，有一天他在上学的路上碰见了一个大小为 n 的树，树上结点从 1 ∼ n 编号，1 号结点为树的根。除 1 号结点外，每个结点有一个父亲结点，u（2 ≤ u ≤ n）号结点的父亲为 f_u（1 ≤ f_u &lt; u）号结点。</p>
-<p>jo昊 发现这个树的每个结点上<strong>恰有</strong>一个括号，可能是<code>(</code> 或<code>)</code>。jo昊 定义 s_i 为：将根结点到 i 号结点的简单路径上的括号，按结点经过顺序依次排列组成的字符串。</p>
-<p>显然 s_i 是个括号串，但不一定是合法括号串，因此现在jo昊 想对所有的 i（1 ≤ i ≤ n）求出，s_i 中有多少个<strong>互不相同的子串</strong>是<strong>合法括号串</strong>。</p>
-<p>这个问题难倒了jo昊，他只好向你求助。设 s_i 共有 k_i 个不同子串是合法括号串， 你只需要告诉jo昊 所有 i * k_i 的异或和，即：<br> (1 * k_1)xor(2 * k_2)xor(3 * k_3)xor···xor(n * k_n)<br>其中 xor 是位异或运算。</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行一个整数 n，表示树的大小。</p>
-<p>第二行一个长为 n 的由<code>(</code> 与<code>)</code> 组成的括号串，第 i 个括号表示 i 号结点上的括号。</p>
-<p>第三行包含 n − 1 个整数，第 i（1 ≤ i ＜ n）个整数表示 i + 1 号结点的父亲编号 f_{i+1}。</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>仅一行一个整数表示答案。</p>
-<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><pre><code>5
-(()()
-1 1 2 2
-</code></pre>
-<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><pre><code>6
-</code></pre>
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>【样例解释1】</p>
-<p>树的形态如下图：</p>
-<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/10z2scex.png"></p>
-<p>将根到 1 号结点的简单路径上的括号，按经过顺序排列所组成的字符串为 <code>(</code>，子串是合法括号串的个数为 0。</p>
-<p>将根到 2 号结点的字符串为 <code>((</code>，子串是合法括号串的个数为 0。</p>
-<p>将根到 3 号结点的字符串为 <code>()</code>，子串是合法括号串的个数为 1。</p>
-<p>将根到 4 号结点的字符串为 <code>(((</code>，子串是合法括号串的个数为 0。</p>
-<p>将根到 5 号结点的字符串为 <code>(()</code>，子串是合法括号串的个数为 1。</p>
-<p>【数据范围】</p>
-<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/1k6fabxr.png"></p>
+                <p>昔有一人，名一多，善造球。一日，与友同行，念无与为乐，遂曰：“吾与汝毕力造球，指通教室，达于茅厕，可乎？”杂然相许。其友献疑曰：“以君之力，曾不能造球之一层，如纸球何？且焉置废纸？”杂曰：“投诸教室之柜，茅厕之坑。”顷刻而球成。一多之后六年，jo昊大入边，乃以夏尼尔为后卫，军飞象；刘姆斯为前锋，军雄鹿；以王伯伦为中锋，军勇士：以备昊。jo昊闻之，惧其不已也，速撤退。一多曰：“嗟乎，此乃真球星矣！其可得而犯焉？”称善者久之。</p>
 
                 
             </div>
@@ -539,7 +512,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://next.114514-cup.xyz/2022/06/15/%E7%AC%AC%E4%B8%80%E5%B1%8A%E4%B8%8B%E5%8C%97%E6%B2%A2%E6%9D%AF/">http://next.114514-cup.xyz/2022/06/15/%E7%AC%AC%E4%B8%80%E5%B1%8A%E4%B8%8B%E5%8C%97%E6%B2%A2%E6%9D%AF/</a>
+                    <a href="http://next.114514-cup.xyz/2022/06/17/%E4%B8%80%E5%A4%9A%E9%80%A0%E7%90%83/">http://next.114514-cup.xyz/2022/06/17/%E4%B8%80%E5%A4%9A%E9%80%A0%E7%90%83/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -748,9 +721,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/2022/06/17/%E4%B8%80%E5%A4%9A%E9%80%A0%E7%90%83/">
                     <div class="card-image">
@@ -768,9 +742,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-06-17
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-17
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -779,6 +753,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -789,13 +764,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/06/14/%E6%8E%A5%E4%B8%8B%E6%9D%A5%EF%BC%8C%E4%B8%8B%E5%8C%97%E6%B2%A2%E6%9D%AF/">
+                <a href="/2022/06/15/%E7%AC%AC%E4%B8%80%E5%B1%8A%E4%B8%8B%E5%8C%97%E6%B2%A2%E6%9D%AF/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="接下来，下北沢杯">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="第一届下北沢杯">
                         
-                        <span class="card-title">接下来，下北沢杯</span>
+                        <span class="card-title">第一届下北沢杯</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -806,7 +781,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-14
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-15
                             </span>
                         <span class="publish-author">
                             
